@@ -48,7 +48,8 @@ public class ExpertiseService {
     }
 
     public List<Craftsman> getByExpertiseIdforCraftsmen(long id) {
-       for (Map<Long, Long> e : expertiseDAO.getECList().values()) {
-       }
-       return new ArrayList<>();
+
+        return new ArrayList<>();
+
+    }
 }

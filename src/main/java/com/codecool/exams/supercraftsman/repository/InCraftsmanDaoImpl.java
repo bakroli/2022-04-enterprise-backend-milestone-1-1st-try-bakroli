@@ -15,6 +15,7 @@ public class InCraftsmanDaoImpl implements CraftsmanDAO<Craftsman> {
 
     public void clear() {
         craftsmen = new ArrayList<>();
+        idGenerator = new AtomicLong();
     }
 
     @Override
